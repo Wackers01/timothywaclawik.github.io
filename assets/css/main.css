@@ -34,10 +34,10 @@ blockquote, q {
 	quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
-}
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
 
 table {
 	border-collapse: collapse;
@@ -67,64 +67,70 @@ input, select, textarea {
 
 /* Basic */
 
-@-ms-viewport {
-	width: device-width;
-}
-
-body {
-	-ms-overflow-style: scrollbar;
-}
-
-@media screen and (max-width: 480px) {
-	html, body {
-		min-width: 320px;
+	@-ms-viewport {
+		width: device-width;
 	}
-}
 
-html {
-	box-sizing: border-box;
-}
+	body {
+		-ms-overflow-style: scrollbar;
+	}
 
-*, *:before, *:after {
-	box-sizing: inherit;
-}
+	@media screen and (max-width: 480px) {
 
-body {
-	background: #312450;
-}
+		html, body {
+			min-width: 320px;
+		}
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-	-moz-animation: none !important;
-	-webkit-animation: none !important;
-	-ms-animation: none !important;
-	animation: none !important;
-	-moz-transition: none !important;
-	-webkit-transition: none !important;
-	-ms-transition: none !important;
-	transition: none !important;
-}
+	}
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+		background: #312450;
+	}
+
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
 
 /* Type */
 
-body, input, select, textarea {
-	color: rgba(255, 255, 255, 0.55);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16.5pt;
-	font-weight: normal;
-	line-height: 1.75;
-}
-
-@media screen and (max-width: 1680px) {
 	body, input, select, textarea {
-		font-size: 13pt;
+		color: rgba(255, 255, 255, 0.55);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16.5pt;
+		font-weight: normal;
+		line-height: 1.75;
 	}
-}
 
-	@media screen and (max-width: 1280px) {
-		body, input, select, textarea {
-			font-size: 12pt;
+		@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 13pt;
+			}
+
 		}
-	}
+
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
 
 		@media screen and (max-width: 360px) {
 
