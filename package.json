@@ -1,0 +1,7 @@
+{
+  "name": "timothywaclawik.github.io",
+  "version": "1.0.0",
+  "dependencies": {
+    "webdatarocks": "^1.4.7"
+  }
+}

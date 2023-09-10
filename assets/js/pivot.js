@@ -1,3 +1,4 @@
+import WebDataRocks from "webdatarocks";
 var pivot = new WebDataRocks({
     container: "#report_container",
     toolbar: true,
