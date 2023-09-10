@@ -134,4 +134,4 @@
   		$(this).removeClass('inactive');
   	}
   });
-})(jQuery);
+});
